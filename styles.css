@@ -1,17 +1,76 @@
 
-
+/* index page */
 *{
-    background-color: lightblue;
+    background-color: #f4e4d9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    color:rgb(8, 38, 120);
+    color:rgb(124, 89, 0);
+    text-align: center;
 }
 
-a  {
-    color:black;
+a {
+    color: black;
 }
+
+a:hover{
+    color:rgb(83, 61, 32);
+}
+
+a:active{
+    color:brown;
+}
+
+.container,.index-ul,.index-ol,a{
+    background: #ffffff;
+    text-align: center;
+
+}
+
+.container{
+    margin-left:400px;
+    margin-right:400px;
+    border: 2px solid rgb(145, 105, 18);
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+/* recipes */
+.food-photo {
+    width:500px;
+    height:auto;
+    border:5px solid rgb(138, 88, 0);
+    display: block;
+    margin:0 auto;
+}
+
+h3{
+    margin-left: 100px;
+}
+
+.description, .description p, .description ul,.description ol,.description li{
+    background-color: #e6cfb6;
+    margin-right:200px;
+}
+
+.description{
+    margin-left: 100px;
+}
+
+.description p, .description li{
+    padding : 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
